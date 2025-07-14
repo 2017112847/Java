@@ -63,8 +63,8 @@ public class StaticTest {public static void main(String[] args) {
 	
 	System.out.println("1 + 2 = "+ c1.puls(1, 2));
 	System.out.println("1 - 2 = "+ c2.minus(1, 2));
-	System.out.println("2 * 3 = "+ c3.multi(1, 2));
-	System.out.println("4 / 2 = "+ c4.div(1, 2));
+	System.out.println("2 * 3 = "+ c3.multi(2, 3));
+	System.out.println("4 / 2 = "+ c4.div(4, 2));
 }
 
 }
