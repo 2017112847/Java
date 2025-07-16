@@ -62,11 +62,11 @@ public class StaticTest {public static void main(String[] args) {
 	Calc c4 = Calc.getInstance();
 	
 	System.out.println("1 + 2 = "+ c1.puls(1, 2));
-<<<<<<< HEAD
+
 	System.out.println("2 - 1 = "+ c2.minus(2, 1));
-=======
+
 	System.out.println("1 - 2 = "+ c2.minus(1, 2));
->>>>>>> 83c0f970b4a90c2f1c959bd5c5414589e3bdfa02
+
 	System.out.println("2 * 3 = "+ c3.multi(2, 3));
 	System.out.println("4 / 2 = "+ c4.div(4, 2));
 }

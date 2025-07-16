@@ -38,6 +38,19 @@ public class PolyTest {public static void main(String[] args) {
 	arr[0].move();
 	arr[1].move();
 	arr[2].move();
-}
+	
+	Dog dog = new Dog();
+	Cat cat = new Cat();
+	
+	printSound(dog);
+	printSound(cat);
+	
+	
+//	dog.makeSound();
+//	cat.makeSound();
 
+}
+	public static void printSound(Pet pet) {
+		pet.makeSound();
+	}
 }
