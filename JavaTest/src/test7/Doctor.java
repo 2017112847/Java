@@ -1,0 +1,28 @@
+package test7;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Doctor {
+	private String name;
+	private String id;
+	private String special;
+	private List<Patient> patientList = new ArrayList<>();
+public Doctor(String name, String id, String special) {
+	this.name = name;
+	this.id = id;
+	this.special = special;
+	this.patientList = patientList;
+}
+public void addPatient(Patient patient) {
+	patientList.add(patient);
+	
+
+	
+}
+@Override
+public String toString() {
+	return "의사: " + name + "ID: " + id + ",전문분야: " + special +
+			" \n담당 환자 목록: \n" + patientList ;
+}
+}
